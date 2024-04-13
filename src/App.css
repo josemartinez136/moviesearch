@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgb(54, 52, 52);
+}
+
+.App {
+  width: 100%;
+  min-height: 100vh;
+  padding: 70px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+}
+
+.gradient-text {
+  background-image: linear-gradient(to right, purple, pink);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent
+}
+
+
+input {
+  margin-inline: 1rem;
+  margin-block: 2rem;
+  width: 700px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: rgb(43, 41, 41);
+  border: 1px solid #ffffff7f;
+  color: white;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+::placeholder {
+  color: white;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  opacity: 1;
+}
+
+button {
+  padding: 15px;
+  border-radius: 10px;
+  width: 90px;
+  border: 1px solid #ffffff7f;
+  color: whitesmoke;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(43, 41, 41);
+  cursor: pointer;
+}
+
+.element {
+  margin-block: 2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.element-div {
+  height: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.element img {
+  max-width: 250px;
+}
+
+p {
+  padding: 0 auto;
+}
+
+.movie-name {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: white;
+}
+
+.movie-actors {
+  font-size: 15px;
+  font-style: italic;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.movie-year {
+  font-size: 13px;
+  color: white;
+}
+
+.search-icon {
+  background-color: transparent;
+  font-weight: bold;
+}
